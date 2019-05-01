@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trabalho 2 - André Maciel</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png"/>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container">      
+        
+            <a class="navbar-brand" href="index.html">AndreMaciel66</a>
+            <button class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarResponsive" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="trab_2.html">Trabalho 2</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+    
+    <table class="table table-striped table-inverse table-responsive">
+        <thead class="thead-inverse">
+            <tr>
+                <th>Old HTML</th>
+                <th>HTML Example</th>
+                <th>How to do</th>
+                <th>CSS Example</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">Tag &ltu&gt é responsável por colocar um texto sublinhado. 
+                            *DESCONTINUADA na versão 5 do HTML</td>
+                    <td>Código: &ltu&gt Texto utilizando essa tag.</u>
+                        <p><u>Texto utilizando essa tag HTML.</u></p>
+                    </td>
+                    <td>Em CSS devemos utilizar a propriedade style ="text-decoration: underline"</td>
+                    <td>Código: &ltp style="text-decoration:underline"> Texto utilizando essa propriedade.
+                    <p style="text-decoration:underline">Texto utilizando essa proriedade CSS.</td>
+                </tr>
+                <tr>
+                    <td scope="row">Tag &ltfont&gt é responsável por alterar a fonte de um texto.
+                            <br><br>
+                            *DESCONTINUADA na versão 5 do HTML
+                    </td>
+        
+                    <td>
+                            Código: &ltfont size="2" color="red face="verdana""&gt Texto utilizando essa tag. &lt/font&gt
+                            <p><font size="2" color="red" face="verdana">Texto utilizando essa tag HTML.</font></p>
+                        </td>
+        
+                        <td>
+                            Em CSS devemos utilizar a propriedade style="color:red; font-size:15px; font-family:verdana"
+                        </td>
+                        
+                        <td>
+                            <br>
+                            Código: &ltp style="color:red; font-size:15px; font-family:verdana"&gt Texto utilizando essa propriedade. &lt/p&gt
+                            <p style="color:red; font-size:15px; font-family:verdana">Texto utilizando essa proriedade CSS.</p>
+                        </td>            
+                </tr>
+
+
+                    
+                    <tr>
+                        <td>
+                            Tag &ltcenter&gt é responsável por centralizar algum texto.
+                            <br><br>
+                            *DESCONTINUADA na versão 5 do HTML
+                        </td>
+        
+                        <td>
+                            Código: &ltcenter&gt Seu texto aqui &lt/center&gt					
+                        </td>
+                        
+                        <td>
+                            Em CSS devemos utilizar a propriedade text-align="center"
+                        </td>
+                        
+                        <td>
+                            <br>
+                            Código: &ltp style="text-align:center"&gt Seu texto aqui. &lt/p&gt
+                        </td>
+                    </tr>
+                    
+                                        
+                    <tr>
+                        <td>
+                            Tag &lts&gt é responsável por informar que um texto está errado.
+                            <br><br>
+                            *DESCONTINUADA na versão 5 do HTML
+                        </td>
+        
+                        <td>
+                            Código: &lts&gt Texto utilizando essa tag. &lt/s&gt
+                            <p><s>Texto utilizando essa tag HTML.</s></p>
+                        </td>
+                        
+                        <td>
+                            Em CSS devemos utilizar a propriedade style ="text-decoration: line-through"
+                        </td>
+                        
+                        <td>
+                            <br>
+                            Código: &ltp style="text-decoration:line-through"&gt Texto utilizando essa propriedade. &lt/p&gt
+                            <p style="text-decoration:line-through">Texto utilizando essa proriedade CSS.</p>
+                        </td>
+                    </tr>
+                    
+                                        
+                    <tr>
+                        <td>
+                            Tag &ltsrike&gt é responsável por informar que um texto está errado.
+                            <br><br>
+                            *DESCONTINUADA na versão 5 do HTML
+                        </td>
+        
+                        <td>
+                            Código: &ltsrike&gt Texto utilizando essa tag. &lt/srike&gt
+                            <p><strike>Texto utilizando essa tag HTML.</strike></p>
+                        </td>
+                        
+                        <td>
+                            Em CSS devemos utilizar a propriedade style ="text-decoration: line-through"
+                        </td>
+                        
+                        <td>
+                            <br>
+                            Código: &ltp style="text-decoration:line-through"&gt Texto utilizando essa propriedade. &lt/p&gt
+                            <p style="text-decoration:line-through">Texto utilizando essa proriedade CSS.</p>
+                        </td>
+                    </tr>
+                    
+                                        
+                    <tr>
+                        <td>
+                            Tag &ltbasefont&gt é responsável por alterar a fonte de um texto.
+                            <br><br>
+                            ***OBSOLETA***
+                        </td>
+        
+                        <td>
+                            **Funcional apenas no Internet Explorer 9.0 ou anteriores.
+                        </td>
+                        
+                        <td>
+                            Em CSS devemos utilizar a propriedade style="color:red; font-size:15px; font-family:verdana"
+                        </td>
+                        
+                        <td>
+                            <br>
+                            Código: &ltp style="color:red; font-size:15px; font-family:verdana"&gt Texto utilizando essa propriedade. &lt/p&gt
+                            <p style="color:red; font-size:15px; font-family:verdana">Texto utilizando essa proriedade CSS.</p>
+                        </td>
+                    </tr>			
+                                        
+                    <tr>
+                        <td>
+                            Tag &ltbig&gt é responsável por alterar o tamanho de um texto.
+                            <br><br>
+                            *DESCONTINUADA na versão 5 do HTML
+                        </td>
+        
+                        <td>
+                            Código: &ltbig&gt Texto utilizando essa tag. &lt/big&gt
+                            <p><big>Texto utilizando essa tag HTML.</big></p>
+                        </td>
+                        
+                        <td>
+                            Em CSS devemos utilizar a propriedade style="font-size: 25px"
+                        </td>
+                        
+                        <td>
+                            <br>
+                            Código: &ltp style="font-size:25px"&gt Texto utilizando essa propriedade. &lt/p&gt
+                            <p style="font-size:25px">Texto utilizando essa proriedade CSS.</p>
+                        </td>
+                    </tr>
+                    
+                                        
+                    <tr>
+                        <td>
+                            Tag &ltacronym&gt é responsável por mostrar ao usuário que o texto é uma abreviação.
+                            <br><br>
+                            *DESCONTINUADA na versão 5 do HTML
+                        </td>
+        
+                        <td>
+                            
+                        </td>
+                        
+                        <td>
+                            Usar a tag &ltabbr&gt 
+                        </td>
+                        
+                        <td>
+                            
+                        </td>
+                    </tr>
+                    
+                                        
+                    <tr>
+                        <td>
+                            Tag &ltapplet&gt é responsável por incluir um Java Applet.
+                            <br><br>
+                            *Não suportada na versão 5 do HTML
+                        </td>
+        
+                        <td>
+                            
+                        </td>
+                        
+                        <td>
+                            Usar a tag &ltobject&gt ou &ltembed&gt
+                        </td>
+                        
+                        <td>
+                            
+                        </td>
+                    </tr>
+                    
+                                        
+                    <tr>
+                        <td>
+                            Tag &ltframe&gt é responsável por incluir um Frame na página.
+                            <br><br>
+                            *DESCONTINUADA na versão 5 do HTML
+                        </td>
+        
+                        <td>
+                            
+                        </td>
+                        
+                        <td>
+                            Se usar essa tag, mudar o !DOCTYPE para HTML Frameset DTD, ou a página não será validada
+                        </td>
+                        
+                        <td>
+                            
+                        </td>
+                    </tr>
+                    
+                                        
+                    <tr>
+                        <td>
+                            Tag &ltisindex&gt é responsável por incluir um prompt na página.
+                            <br><br>
+                            ***OBSOLETA***
+                        </td>
+        
+                        <td>
+                            **Funcional apenas no Internet Explorer 9.0 ou anteriores.
+                        </td>
+                        
+                        <td>
+                            Usar a tag &ltinput&gt
+                        </td>
+                        
+                        <td>
+                            
+                        </td>
+                    </tr>
+                    
+                                        
+                    <tr>
+                        <td>
+                            Tag &ltnoframes&gt é responsável por ser um fallback para browsers que nao suportem frames.
+                            <br><br>
+                            *DESCONTINUADA na versão 5 do HTML
+                        </td>
+        
+                        <td>
+                            
+                        </td>
+                        
+                        <td>
+                            Se usar essa tag, mudar o !DOCTYPE para HTML Frameset DTD, ou a página não será validada
+                        </td>
+                        
+                        <td>
+                            
+                        </td>
+                    </tr>
+                    
+                                        
+                    <tr>
+                        <td>
+                            Tag &lttt&gt era usada para marcar um input do teclado.
+                            <br><br>
+                            *Não suportada na versão 5 do HTML
+                        </td>
+        
+                        <td>
+                            
+                        </td>
+                        
+                        <td>
+                            Usar a tag &ltkbd&gt
+                        </td>
+                        
+                        <td>
+                            
+                        </td>
+                    </tr>
+                    
+                                        
+                    <tr>
+                        <td>
+                            Tag &ltframeset&gt é responsável por incluir um Frame na página.
+                            <br><br>
+                            *DESCONTINUADA na versão 5 do HTML
+                        </td>
+        
+                        <td>
+                            
+                        </td>
+                        
+                        <td>
+                            Se usar essa tag, mudar o !DOCTYPE para HTML Frameset DTD, ou a página não será validada
+                        </td>
+                        
+                        <td>
+                            
+                        </td>
+                    </tr>
+                    
+                                        
+                    <tr>
+                        <td>
+                            Tag &ltdir&gt era usada para incluir uma lista.
+                            <br><br>
+                            *Não suportada na versão 5 do HTML
+                        </td>
+        
+                        <td>
+                            
+                        </td>
+                        
+                        <td>
+                            Usar a tag &ltul&gt
+                        </td>
+                        
+                        <td>
+                            
+                        </td>
+                    </tr>
+            </tbody>
+    </table>
+
+    </div>
+    
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/js/bootstrap.bundle.min.js"></script>
+</body>
